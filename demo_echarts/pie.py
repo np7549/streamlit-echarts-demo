@@ -39,7 +39,7 @@ def render_pie_donutradius():
         "legend": {"top": "5%", "left": "center"},
         "series": [
             {
-                "name": "访问来源",
+                "name": "Interactions",
                 "type": "pie",
                 "radius": ["40%", "70%"],
                 "avoidLabelOverlap": False,
@@ -50,15 +50,15 @@ def render_pie_donutradius():
                 },
                 "label": {"show": False, "position": "center"},
                 "emphasis": {
-                    "label": {"show": True, "fontSize": "40", "fontWeight": "bold"}
+                    "label": {"show": True, "fontSize": "40", "fontWeight": "normal"}
                 },
                 "labelLine": {"show": False},
                 "data": [
-                    {"value": 1048, "name": "搜索引擎"},
-                    {"value": 735, "name": "直接访问"},
-                    {"value": 580, "name": "邮件营销"},
-                    {"value": 484, "name": "联盟广告"},
-                    {"value": 300, "name": "视频广告"},
+                    {"value": 10, "name": "Hayden"},
+                    {"value": 7, "name": "Jacob"},
+                    {"value": 5, "name": "Addie"},
+                    {"value": 4, "name": "Megan"},
+                    {"value": 3, "name": "William"},
                 ],
             }
         ],
